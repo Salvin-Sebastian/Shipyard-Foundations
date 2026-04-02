@@ -1,6 +1,6 @@
 # CI/CD Assignment Submission
 
-Name: Salvin Sebastian
+Name: Salvin Sebastian \n
 muid: salvinsebastian@mulearn
 
 ## 🔗 Repository Link  
