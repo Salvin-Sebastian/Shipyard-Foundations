@@ -15,6 +15,7 @@ spec:
       containers:
       - name: my-web-container
         image: my-web-app
+        imagePullPolicy: Never
         ports:
         - containerPort: 80
         env:
