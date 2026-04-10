@@ -1,0 +1,9 @@
+FROM nginx:alpine
+
+COPY index.html /usr/share/nginx/html/index.html
+
+RUN echo 'server { \
+    listen 80; \
+    location / { root /usr/share/nginx/html; index index.html; } \
+    location /env { return 200 "$STUDENT_NAME"; } \
+}' > /etc/nginx/conf.d/default.conf
